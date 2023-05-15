@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name:</label> <br>
+            <input type="text"name="name"id="name"required>
+        </div>
+        <div>
+            <label for="age">Age:</label> <br>
+            <input type="number"name="age"id="age">
+        </div>
+        <div>
+            <label for="email">Email Id:</label> <br>
+            <input type="email"name="email"id="email"required>
+        </div>
+        <div>
+            <label for="password">Password:</label> <br>
+            <input type="password"name="password"id="password">
+        </div>
+        <div>
+            <label for="phoneNo">Phone Number:</label> <br>
+            <input type="tel"name="phoneNo"id="phoneNo">
+        </div>
+        <div>
+            <label for="gender">Gender:</label> <br>
+            <input type="radio"name="gender"> Male <br>
+            <input type="radio"name="gender"> Female
+        </div>
+
+        <div>
+            <label for="skills">Your Skills:</label> <br>
+            HTML:<input type="checkbox">
+            CSS:<input type="checkbox">
+            JS:<input type="checkbox">
+        </div>
+        <div>
+            <label for="dob">Date of Birth :</label> <br>
+            <input type="date"name="dob">
+        </div>
+
+        <div>
+            <label for="time">Time of Birth :</label>
+            <input type="time"name="time">
+        </div>
+
+        <div>
+            <label for="topic">Choose your topic:</label>
+            <select name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JS</option>
+            </select>
+        </div>
+            <div>
+                <input type="submit">
+                <input type="Reset">
+                <button>Click</button>
+            </div>
+            <div>
+                <label for="msg">Any Question:</label>
+                <textarea name="msg" id="msg"cols="30"rows="2"></textarea>
+            </div>
+
+        <hr>
+
+        <label for="extra-input">Use of Attribut </label><br>
+
+        <div>
+            <label for="name">Name:</label> <br>
+            <input type="text" name="name" placeholder="Enter your name"><br>            
+        </div>
+        <div>
+            <label for="age">Age:</label> <br>
+            <input type="number" name="age"value="10">
+        </div>
+        <div>
+            <h5>Required means necessary to fill<br>
+            <label for="email">Email Id:</label> <br>
+            <input type="email"name="email"required>
+            </h5>
+        </div>
+
+        <div>
+            <label for="password">Password:</label> <br>
+            <input type="password"name="password"readonly>
+        </div>
+
+        <div>
+            <h5>Disable Attribut is used in button
+            <input type="Reset"disabled>
+            </h5>
+        </div>
+
+        <div>
+            <h5><label for="name">Name:</label> <br>
+            maxlength is working in email, password, tel, text input type <br>
+            maxlength is not working in number input type
+            <input type="text" name="name" maxlength="10"><br>            
+            </h5>
+        </div>
+            <div>
+                <h5><b>regex</b> of pan_card use in pattern<br>
+                <label for="pan">pan card :</label>
+                <input type="tel"name="pan"id="pan"pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" >
+                    <br>
+                
+                </h5>
+            </div>
+
+        <hr>
+
+        <div>
+       <label for="extra-input">Extra Input Types</label><br>
+
+       <label for="color">Choose your colour:</label> <br>
+       <input type="color"><br>
+
+       <label for="month">Choose your Month:</label>
+       <input type="month"><br>
+
+       <label for="week">Choose your Week:</label>
+       <input type="week"><br>
+
+       <label for="date">Choose your Date and Timing:</label>
+       <input type="datetime-local"><br>
+
+       <label for="file">Attached File:</label>
+       <input type="file"><br>
+        
+       <label for="search">Search:</label>
+       <input type="search"><br>
+
+       <label for="range">Range:</label>
+       <input type="range"><br>
+
+             <input type="button" value="submit"><br>
+             <button>submit</button>
+        </div>
+
+
+    </form>
+</body>
+</html>
